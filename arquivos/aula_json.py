@@ -1,5 +1,7 @@
 import json 
 
+# https://www.notion.so/Manipula-o-de-Arquivos-em-Python-26534af6164e818ab621e1d4db547b23
+
 with open("instituicoes-AL.json", "r") as f:
     dados = json.load(f)
     #print(dados)

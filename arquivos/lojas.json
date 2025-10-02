@@ -1,0 +1,54 @@
+{
+  "lojas": [
+    {
+      "id": 1,
+      "nome": "Loja Centro",
+      "cidade": "Maceió",
+      "produtos": [
+        { "id": 101, "nome": "Notebook", "preco": 3500.00, "categoria": "Eletrônicos" },
+        { "id": 102, "nome": "Mouse", "preco": 80.00, "categoria": "Acessórios" },
+        { "id": 103, "nome": "Cadeira Gamer", "preco": 1200.00, "categoria": "Móveis" }
+      ],
+      "clientes": [
+        { "id": 1, "nome": "Ana", "idade": 25 },
+        { "id": 2, "nome": "Carlos", "idade": 40 }
+      ],
+      "pedidos": [
+        { "id": 5001, "cliente_id": 1, "produtos": [101, 102], "data": "2025-01-10" },
+        { "id": 5002, "cliente_id": 2, "produtos": [103], "data": "2025-01-15" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Loja Arapiraca",
+      "cidade": "Arapiraca",
+      "produtos": [
+        { "id": 104, "nome": "Smartphone", "preco": 2500.00, "categoria": "Eletrônicos" },
+        { "id": 105, "nome": "Teclado Mecânico", "preco": 300.00, "categoria": "Acessórios" }
+      ],
+      "clientes": [
+        { "id": 3, "nome": "Beatriz", "idade": 30 },
+        { "id": 4, "nome": "Diego", "idade": 22 }
+      ],
+      "pedidos": [
+        { "id": 5003, "cliente_id": 3, "produtos": [104], "data": "2025-02-02" },
+        { "id": 5004, "cliente_id": 4, "produtos": [105, 104], "data": "2025-02-05" }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Loja Penedo",
+      "cidade": "Penedo",
+      "produtos": [
+        { "id": 106, "nome": "Geladeira", "preco": 4000.00, "categoria": "Eletrodomésticos" },
+        { "id": 107, "nome": "Fogão", "preco": 1800.00, "categoria": "Eletrodomésticos" }
+      ],
+      "clientes": [
+        { "id": 5, "nome": "Fernanda", "idade": 28 }
+      ],
+      "pedidos": [
+        { "id": 5005, "cliente_id": 5, "produtos": [106, 107], "data": "2025-03-01" }
+      ]
+    }
+  ]
+}
